@@ -17,10 +17,6 @@
 /* FONTS
 /* ================================================================== */
 
-
-/* directory to load fonts from in addition to the system directories */
-Map { font-directory: url(./fonts); }
-
 /* set up font sets for various weights and styles */
 @sans_lt:           "Open Sans Regular","DejaVu Sans Book","unifont Medium";
 @sans_lt_italic:    "Open Sans Italic","DejaVu Sans Italic","unifont Medium";
@@ -286,7 +282,7 @@ Map { font-directory: url(./fonts); }
 @restaurante18: url(./icon/restaurant-18.svg);
 @supermercado18: url(./icon/grocery-18.svg);
 @taller18: @rent_car18;
-@ropa18: url(./icon/clothing-store-18.svg);
+@ropa18: url(./icon/clothing-store-24.svg);
 /*@electronica18: url(./icon/clothing-store-18.svg);*/
 @universidad18: url(./icon/college-18.svg);
 @nocturna18: url(./icon/bar-18.svg);

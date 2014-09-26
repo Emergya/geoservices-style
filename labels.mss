@@ -1,6 +1,7 @@
 /* LABELS.MSS CONTENTS:
  * - POIs labels
- 
+ * - Urban zones labels
+ * - Rivers labels
  */
 
 /* ================================================================== */
@@ -53,5 +54,47 @@
 }
 
 
+/* ================================================================== */
+/* URBAN ZONES LABELS
+/* ================================================================== */
 
+#ADM_BUA[zoom <= 13][zoom >=12]{
+	         text-name:[NOMBRE];
+ 			 text-face-name:@sans_bold;
+ 			 text-placement:point;
+        	 text-dx:10;
+ 			 text-fill:@poi_text2;
+ 			 text-halo-fill:@poi_halo;
+ 			 text-halo-radius:1.3;
+ 			 text-size:8;
+ 			 text-min-distance:60;
 
+}
+
+/* ================================================================== */
+/* RIVERS LABELS
+/* ================================================================== */
+
+#CARTO_LI[ENTIDAD='HIDROGRAFA LINEAL'][zoom >=11]{
+   			 text-name:[TEXTO];
+ 			 text-face-name:@sans_bold;
+ 			 text-placement:line;
+        	 text-dy:-5;
+ 			 text-fill:@water;
+    		 text-halo-fill:#fff;
+ 			 text-halo-radius:1.3;
+  			 text-size:8;
+  			 text-character-spacing:5;
+ }
+
+#CARTO_PO[ENTIDAD='HIDROGRAFIA'][zoom >=11]{
+   			 text-name:[TEXTO];
+ 			 text-face-name:@sans_bold;
+ 			 text-placement:point;
+        	 text-dy:-5;
+ 			 text-fill:darken(@water,20);
+    		 text-halo-fill:#fff;
+ 			 text-halo-radius:1.3;
+  			 text-size:7;
+ 			 text-min-distance:60;
+ }
