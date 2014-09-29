@@ -17,10 +17,6 @@
 /* FONTS
 /* ================================================================== */
 
-
-/* directory to load fonts from in addition to the system directories */
-Map { font-directory: url(./fonts); }
-
 /* set up font sets for various weights and styles */
 @sans_lt:           "Open Sans Regular","DejaVu Sans Book","unifont Medium";
 @sans_lt_italic:    "Open Sans Italic","DejaVu Sans Italic","unifont Medium";
@@ -204,6 +200,9 @@ Map { font-directory: url(./fonts); }
 
 /*-----------marker icons----------------------*/
 	/*---------small icons-----------------*/
+@admon12: url(./icon/town-hall-12.svg);
+@aeropuerto_dep12: url(./icon/airfield-12.svg);
+@aeropuerto12: url(./icon/airport-12.svg);
 @rent_car12: url(./icon/car-12.svg);
 @ambulatorio12: url(./icon/hospital-12.svg);
 @art_hogar12: url(./icon/shop-12.svg);
@@ -249,6 +248,9 @@ Map { font-directory: url(./fonts); }
 @industrial12: url(./icon/industrial-12.svg);
 
 /*---------medium icons-----------------*/
+@admon18: url(./icon/town-hall-18.svg);
+@aeropuerto_dep18: url(./icon/airfield-18.svg);
+@aeropuerto18: url(./icon/airport-18.svg);
 @rent_car18: url(./icon/car-18.svg);
 @ambulatorio18: url(./icon/hospital-18.svg);
 @art_hogar18: url(./icon/shop-18.svg);
@@ -286,7 +288,7 @@ Map { font-directory: url(./fonts); }
 @restaurante18: url(./icon/restaurant-18.svg);
 @supermercado18: url(./icon/grocery-18.svg);
 @taller18: @rent_car18;
-@ropa18: url(./icon/clothing-store-18.svg);
+@ropa18: url(./icon/clothing-store-24.svg);
 /*@electronica18: url(./icon/clothing-store-18.svg);*/
 @universidad18: url(./icon/college-18.svg);
 @nocturna18: url(./icon/bar-18.svg);
@@ -294,6 +296,9 @@ Map { font-directory: url(./fonts); }
 @industrial18: url(./icon/industrial-18.svg);
 
 /*---------big icons-----------------*/
+@admon24: url(./icon/town-hall-24.svg);
+@aeropuerto_dep24: url(./icon/airfield-24.svg);
+@aeropuerto24: url(./icon/airport-24.svg);
 @rent_car24: url(./icon/car-24.svg);
 @ambulatorio24: url(./icon/hospital-24.svg);
 @art_hogar24: url(./icon/shop-24.svg);

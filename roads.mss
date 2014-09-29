@@ -12,17 +12,17 @@
 and trunks. */
 
 #VIAL_LI[zoom>=5][zoom<=10] {
-    [CLASE_VIA=1] { line-color:@motorway_line;}
-  	[CLASE_VIA=2] { line-color:@motorway_line; }
-    [CLASE_VIA=3] { line-color:@primary_line;}
-    [CLASE_VIA=4] { line-color:@secondary_line;  }
+    [CLASE_VIA=1] {  line-color: lighten(@motorway_line, 10);}
+  	[CLASE_VIA=2] {  line-color: lighten(@motorway_line, 10); } 
+    [zoom>=9][CLASE_VIA=3] {  line-color: lighten(@primary_case, 10);}
+   
 
-    [CLASE_VIA=1], [CLASE_VIA=2],[CLASE_VIA=3],
-    [CLASE_VIA=4]  {
+    [CLASE_VIA=1], [CLASE_VIA=2],[zoom>=9][CLASE_VIA=3]{
       line-cap:round;
       line-join:round;
     }
 }
+
 
 
 /* Road width variables that are used in road & bridge styles */
@@ -373,7 +373,7 @@ and trunks. */
   text-halo-fill:@road_halo;
   text-halo-radius:1;
   text-min-distance:60;
-  text-size:12;
+  text-size:11;
   text-placement:line;
   text-avoid-edges: true;
   text-allow-overlap: false;
@@ -384,7 +384,7 @@ and trunks. */
 
 #VIAL_LI::labels[CLASE_VIA=3][zoom>12],
 #VIAL_LI::labels[CLASE_VIA=4][zoom>13],
-#VIAL_LI::labels[CLASE_VIA=5][zoom>13] {
+#VIAL_LI::labels[CLASE_VIA=5][zoom>14] {
   line-width: 0;
   text-name:[NOMBRE];
   text-face-name:@sans;
@@ -404,24 +404,34 @@ and trunks. */
 
 #CARTO_LI::line{  
 [ENTIDAD='FFCC']{
-  [zoom>=6]{
-      line-color:@rail_line; 
-      line-cap:round;
-      line-join:round;
-      [zoom=11] { line-width:2; }
-  }
-  [zoom>=8] {
-      line-color:@rail_line; 
-      line-cap:round;
-      line-join:round;
-      [zoom=11] { line-width:1.5; }
-
-  }
-  [zoom>=10]{
-      line-color:@rail_line;
-      [zoom=12] { line-width:0.5; }
+  [zoom>=9] {
+   line-color:lighten(@rail_line,5);
+        line-width: 0.5;
+      ::hatch { line-color: @rail_line; }
+      ::hatch {
+        line-width: 3;
+        line-dasharray: 0.5, 10;
+      } 
   }
   // -- widths --
+     [zoom=10] { 
+       line-color:@rail_line;
+        line-width: 0.5;
+      ::hatch { line-color: @rail_line; }
+      ::hatch {
+        line-width: 3;
+        line-dasharray: 0.5, 10;
+      } 
+    }
+    [zoom=11] { 
+        line-color:@rail_line;
+        line-width: 0.8;
+      ::hatch { line-color: @rail_line; }
+      ::hatch {
+        line-width: 3;
+        line-dasharray: 1, 20;
+      }  
+    }
     [zoom=12] { 
         line-color:@rail_line;
         line-width: 0.8;

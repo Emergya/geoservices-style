@@ -13,7 +13,19 @@ and trunks. */
 #CARTO_PU[zoom >=14]{
   
   [zoom = 14]{
-  	
+  	  [ENTIDAD = 'ADMÓN. PÚBLICA']{
+       marker-file: @admon12;
+       marker-fill: @icon_color12;
+     }
+     [ENTIDAD = 'AEROPUERTO DEPORTIVO']{
+       marker-file: @aeropuerto_dep12;
+       marker-fill: @icon_color12;
+     }
+     [ENTIDAD = 'AEROPUERTO']{
+       marker-file: @aeropuerto12;
+       marker-fill: @icon_color12;
+     }
+    
     [ENTIDAD = 'AMBULATORIO']{
        marker-file: @ambulatorio12;
        marker-fill: @icon_color12;
@@ -48,7 +60,7 @@ and trunks. */
        marker-fill: @icon_color12;
      }
     
-    [ENTIDAD = 'MONUMENTO HISTRICO']{
+    [ENTIDAD = 'MONUMENTO HISTÓRICO']{
     	marker-file: @monumento12;
        marker-fill: @icon_color12;
      }
@@ -65,7 +77,19 @@ and trunks. */
     }
   
    [zoom = 15]{
-
+	 [ENTIDAD = 'ADMÓN. PÚBLICA']{
+       marker-file: @admon12;
+       marker-fill: @icon_color13;
+     }
+     [ENTIDAD = 'AEROPUERTO DEPORTIVO']{
+       marker-file: @aeropuerto_dep12;
+       marker-fill: @icon_color13;
+     }
+     [ENTIDAD = 'AEROPUERTO']{
+       marker-file: @aeropuerto12;
+       marker-fill: @icon_color13;
+     }
+    
     [ENTIDAD = 'AMBULATORIO']{
        marker-file: @ambulatorio12;
        marker-fill: @icon_color13;
@@ -84,7 +108,7 @@ and trunks. */
        marker-fill: @icon_color13;
      }
    
-    [ENTIDAD = 'CAJERO AUTOMTICO']{
+    [ENTIDAD = 'CAJERO AUTOMÁTICO']{
        marker-file: @cajero12;
        marker-fill: @icon_color13;
      }
@@ -100,7 +124,7 @@ and trunks. */
        marker-file: @centro_comercial12;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'CENTRO CVICO']{
+     [ENTIDAD = 'CENTRO CÍVICO']{
        marker-file: @centro_civico12;
        marker-fill: @icon_color13;
      }
@@ -113,7 +137,7 @@ and trunks. */
        marker-fill: @icon_color13;
      }
     
-     [ENTIDAD = 'COMISARA DE POLICA']{
+     [ENTIDAD = 'COMISARÍA DE POLICÍA']{
        marker-file: @policia12;
        marker-fill: @icon_color13;
      }
@@ -146,7 +170,7 @@ and trunks. */
     	marker-file: @hotel12;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'INF. TURSTICA']{
+     [ENTIDAD = 'INF. TURÍSTICA']{
     	/*marker-file: @turismo12;
        marker-fill: @icon_color13;*/
      }
@@ -155,7 +179,7 @@ and trunks. */
     	marker-file: @culto12;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'MONUMENTO HISTRICO']{
+    [ENTIDAD = 'MONUMENTO HISTÓRICO']{
     	marker-file: @monumento12;
        marker-fill: @icon_color13;
      }
@@ -176,7 +200,7 @@ and trunks. */
     	marker-file: @golf12;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'POLGONO DEPORTIVO']{
+    [ENTIDAD = 'POLÍGONO DEPORTIVO']{
     	marker-file: @deporte12;
        marker-fill: @icon_color13;
      }
@@ -193,6 +217,18 @@ and trunks. */
     }
   
  [zoom = 16]{
+     [ENTIDAD = 'ADMÓN. PÚBLICA']{
+       marker-file: @admon12;
+       marker-fill: @icon_color13;
+     }
+     [ENTIDAD = 'AEROPUERTO DEPORTIVO']{
+       marker-file: @aeropuerto_dep12;
+       marker-fill: @icon_color13;
+     }
+     [ENTIDAD = 'AEROPUERTO']{
+       marker-file: @aeropuerto12;
+       marker-fill: @icon_color13;
+     }
   	[ENTIDAD = 'ALQUILER DE COCHES']{
     	marker-file: @rent_car12;
         marker-fill: @icon_color13;
@@ -214,11 +250,11 @@ and trunks. */
        marker-file: @biblioteca12;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'CAFETERA']{
+    [ENTIDAD = 'CAFETERÍA']{
        marker-file: @cafeteria12;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'CAJERO AUTOMTICO']{
+    [ENTIDAD = 'CAJERO AUTOMÁTICO']{
        marker-file: @cajero12;
        marker-fill: @icon_color13;
      }
@@ -234,7 +270,7 @@ and trunks. */
        marker-file: @centro_comercial12;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'CENTRO CVICO']{
+     [ENTIDAD = 'CENTRO CÍVICO']{
        marker-file: @centro_civico12;
        marker-fill: @icon_color13;
      }
@@ -250,7 +286,7 @@ and trunks. */
        marker-file: @cine12;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'COMISARA DE POLICA']{
+     [ENTIDAD = 'COMISARÍA DE POLICÍA']{
        marker-file: @policia12;
        marker-fill: @icon_color13;
      }
@@ -283,11 +319,11 @@ and trunks. */
     	marker-file: @hotel12;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'INF. TURSTICA']{
+     [ENTIDAD = 'INF. TURÍSTICA']{
     	/*marker-file: @turismo12;
        marker-fill: @icon_color13;*/
      }
-     [ENTIDAD = 'LIBRERA']{
+     [ENTIDAD = 'LIBRERÍA']{
     	marker-file: @libreria12;
        marker-fill: @icon_color13;
      }
@@ -295,7 +331,7 @@ and trunks. */
     	marker-file: @culto12;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'MONUMENTO HISTRICO']{
+    [ENTIDAD = 'MONUMENTO HISTÓRICO']{
     	marker-file: @monumento12;
        marker-fill: @icon_color13;
      }
@@ -316,7 +352,7 @@ and trunks. */
     	marker-file: @golf12;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'POLGONO DEPORTIVO']{
+    [ENTIDAD = 'POLÍGONO DEPORTIVO']{
     	marker-file: @deporte12;
        marker-fill: @icon_color13;
      }
@@ -347,6 +383,18 @@ and trunks. */
      }
     }
    [zoom = 17]{
+     [ENTIDAD = 'ADMÓN. PÚBLICA']{
+       marker-file: @admon18;
+       marker-fill: @icon_color13;
+     }
+     [ENTIDAD = 'AEROPUERTO DEPORTIVO']{
+       marker-file: @aeropuerto_dep18;
+       marker-fill: @icon_color13;
+     }
+     [ENTIDAD = 'AEROPUERTO']{
+       marker-file: @aeropuerto18;
+       marker-fill: @icon_color13;
+     }
   	[ENTIDAD = 'ALQUILER DE COCHES']{
     	marker-file: @rent_car18;
         marker-fill: @icon_color13;
@@ -355,11 +403,11 @@ and trunks. */
        marker-file: @ambulatorio18;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'ARTCULOS HOGAR']{
+    [ENTIDAD = 'ARTÍCULOS HOGAR']{
        marker-file: @art_hogar18;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'ATRACCIN TURSTICA']{
+     [ENTIDAD = 'ATRACCIÓN TURÍSTICA']{
       /* marker-file: @turismo18;
        marker-fill: @icon_color13;*/
      }
@@ -375,11 +423,11 @@ and trunks. */
        marker-file: @biblioteca18;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'CAFETERA']{
+    [ENTIDAD = 'CAFETERÍA']{
        marker-file: @cafeteria18;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'CAJERO AUTOMTICO']{
+    [ENTIDAD = 'CAJERO AUTOMÁTICO']{
        marker-file: @cajero18;
        marker-fill: @icon_color13;
      }
@@ -395,7 +443,7 @@ and trunks. */
        marker-file: @centro_comercial18;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'CENTRO CVICO']{
+     [ENTIDAD = 'CENTRO CÍVICO']{
        marker-file: @centro_civico18;
        marker-fill: @icon_color13;
      }
@@ -411,11 +459,11 @@ and trunks. */
        marker-file: @cine18;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'COMISARA DE POLICA']{
+     [ENTIDAD = 'COMISARÍA DE POLICÍA']{
        marker-file: @policia18;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'CONCES. AUTOMVILES']{
+     [ENTIDAD = 'CONCES. AUTOMÓVILES']{
     	marker-file: @concesionario18;
         marker-fill: @icon_color13;
      }
@@ -447,19 +495,20 @@ and trunks. */
     	marker-file: @hotel18;
        marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'INF. TURSTICA']{
+     [ENTIDAD = 'INF. TURÍSTICA']{
     	/*marker-file: @turismo18;
        marker-fill: @icon_color13;*/
      }
-     [ENTIDAD = 'LIBRERA']{
+     [ENTIDAD = 'LIBRERÍA']{
     	marker-file: @libreria18;
        marker-fill: @icon_color13;
      }
      [ENTIDAD = 'LUGAR DE CULTO']{
     	marker-file: @culto18;
        marker-fill: @icon_color13;
+      marker-allow-overlap: true;
      }
-    [ENTIDAD = 'MONUMENTO HISTRICO']{
+    [ENTIDAD = 'MONUMENTO HISTÓRICO']{
     	marker-file: @monumento18;
        marker-fill: @icon_color13;
      }
@@ -483,7 +532,7 @@ and trunks. */
     	marker-file: @golf18;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'POLGONO DEPORTIVO']{
+    [ENTIDAD = 'POLÍGONO DEPORTIVO']{
     	marker-file: @deporte18;
        marker-fill: @icon_color13;
      }
@@ -503,7 +552,7 @@ and trunks. */
     	marker-file: @ropa18;
        marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'TIENDA ELECTRNICA']{
+    [ENTIDAD = 'TIENDA ELECTRÓNICA']{
     	/*marker-file: @electronica18;
        marker-fill: @icon_color13;*/
      }
@@ -526,6 +575,18 @@ and trunks. */
     }
   
    [zoom >= 18]{
+     [ENTIDAD = 'ADMÓN. PÚBLICA']{
+       marker-file: @admon24;
+       marker-fill: @icon_color13;
+     }
+     [ENTIDAD = 'AEROPUERTO DEPORTIVO']{
+       marker-file: @aeropuerto_dep24;
+       marker-fill: @icon_color13;
+     }
+     [ENTIDAD = 'AEROPUERTO']{
+       marker-file: @aeropuerto24;
+       marker-fill: @icon_color13;
+     }
   	[ENTIDAD = 'ALQUILER DE COCHES']{
     	marker-file: @rent_car24;
         marker-fill: @icon_color13;
@@ -534,11 +595,11 @@ and trunks. */
         marker-file: @ambulatorio24;
         marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'ARTCULOS HOGAR']{
+    [ENTIDAD = 'ARTÍCULOS HOGAR']{
         marker-file: @art_hogar24;
         marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'ATRACCIN TURSTICA']{
+     [ENTIDAD = 'ATRACCIÓN TURÍSTICA']{
       /* marker-file: @turismo24;
        marker-fill: @icon_color13;*/
      }
@@ -554,11 +615,11 @@ and trunks. */
         marker-file: @biblioteca24;
         marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'CAFETERA']{
+    [ENTIDAD = 'CAFETERÍA']{
         marker-file: @cafeteria24;
         marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'CAJERO AUTOMTICO']{
+    [ENTIDAD = 'CAJERO AUTOMÁTICO']{
         marker-file: @cajero24;
         marker-fill: @icon_color13;
      }
@@ -574,7 +635,7 @@ and trunks. */
         marker-file: @centro_comercial24;
         marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'CENTRO CVICO']{
+     [ENTIDAD = 'CENTRO CÍVICO']{
         marker-file: @centro_civico24;
         marker-fill: @icon_color13;
      }
@@ -590,11 +651,11 @@ and trunks. */
         marker-file: @cine24;
         marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'COMISARA DE POLICA']{
+     [ENTIDAD = 'COMISARÍA DE POLICÍA']{
         marker-file: @policia24;
         marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'CONCES. AUTOMVILES']{
+     [ENTIDAD = 'CONCES. AUTOMÓVILES']{
         marker-file: @concesionario24;
         marker-fill: @icon_color13;
      }
@@ -626,11 +687,11 @@ and trunks. */
     	marker-file: @hotel24;
         marker-fill: @icon_color13;
      }
-     [ENTIDAD = 'INF. TURSTICA']{
+     [ENTIDAD = 'INF. TURÍSTICA']{
     	/*marker-file: @turismo24;
        marker-fill: @icon_color13;*/
      }
-     [ENTIDAD = 'LIBRERA']{
+     [ENTIDAD = 'LIBRERÍA']{
     	marker-file: @libreria24;
         marker-fill: @icon_color13;
      }
@@ -638,7 +699,7 @@ and trunks. */
     	marker-file: @culto24;
         marker-fill: @icon_color13; 
      }
-    [ENTIDAD = 'MONUMENTO HISTRICO']{
+    [ENTIDAD = 'MONUMENTO HISTÓRICO']{
     	marker-file: @monumento24;
         marker-fill: @icon_color13;
      }
@@ -662,7 +723,7 @@ and trunks. */
     	marker-file: @golf24;
         marker-fill: @icon_color13;
      }
-    [ENTIDAD = 'POLGONO DEPORTIVO']{
+    [ENTIDAD = 'POLÍGONO DEPORTIVO']{
     	marker-file: @deporte24;
         marker-fill: @icon_color13;
      }
@@ -683,7 +744,7 @@ and trunks. */
         marker-fill: @icon_color13;
       
      }
-    [ENTIDAD = 'TIENDA ELECTRNICA']{
+    [ENTIDAD = 'TIENDA ELECTRÓNICA']{
     	/*marker-file: @electronica24;
        marker-fill: @icon_color13;*/
      }
@@ -707,16 +768,13 @@ and trunks. */
 }
 
 #CARTO_PU[zoom >= 18]{
-   [ENTIDAD = 'AMBULATORIO'],[ENTIDAD = 'AYUNTAMIENTO'],
+   [ENTIDAD = 'ADMÓN. PÚBLICA'],[ENTIDAD = 'AEROPUERTO DEPORTIVO'],[ENTIDAD = 'AEROPUERTO'],[ENTIDAD = 'AMBULATORIO'],[ENTIDAD = 'AYUNTAMIENTO'],
    [ENTIDAD = 'BIBLIOTECA'],[ENTIDAD = 'CEMENTERIO'],[ENTIDAD = 'CENTRO COMERCIAL'],
-   [ENTIDAD = 'CENTRO DEPORTIVO'],[ENTIDAD = 'COMISARA DE POLICA'],
+   [ENTIDAD = 'CENTRO DEPORTIVO'],[ENTIDAD = 'COMISARÍA DE POLICÍA'],
    [ENTIDAD = 'ESCUELA'],[ENTIDAD = 'EST. DE AUTOBUSES'],[ENTIDAD = 'EST. DE FERROCARRIL'],[ENTIDAD = 'FARMACIA'],[ENTIDAD = 'HOSPITAL'],
-   [ENTIDAD = 'LUGAR DE CULTO'],[ENTIDAD = 'MONUMENTO HISTRICO'],[ENTIDAD = 'MUSEO'],[ENTIDAD = 'NEG. ESPECIALIZADO'],
-   [ENTIDAD = 'PISTA DE GOLF'],[ENTIDAD = 'POLGONO DEPORTIVO'],
+   [ENTIDAD = 'LUGAR DE CULTO'],[ENTIDAD = 'MONUMENTO HISTÓRICO'],[ENTIDAD = 'MUSEO'],[ENTIDAD = 'NEG. ESPECIALIZADO'],
+   [ENTIDAD = 'PISTA DE GOLF'],[ENTIDAD = 'POLÍGONO DEPORTIVO'],
    [ENTIDAD = 'UNIVERSIDAD'],[ENTIDAD = 'ZONA INDUSTRIAL']{
  			 marker-allow-overlap: true;  
 		}
 }
-
-
-
