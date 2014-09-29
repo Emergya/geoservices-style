@@ -10,23 +10,29 @@
 /* ================================================================== */
 
 
-#CARTO_PU::labels[zoom >= 18]{
-   [ENTIDAD = 'ADMÓN. PÚBLICA'],[ENTIDAD = 'AEROPUERTO DEPORTIVO'],[ENTIDAD = 'AEROPUERTO'],[ENTIDAD = 'AMBULATORIO'],[ENTIDAD = 'AYUNTAMIENTO'],
-   [ENTIDAD = 'BIBLIOTECA'],[ENTIDAD = 'CEMENTERIO'],[ENTIDAD = 'CENTRO COMERCIAL'],
-   [ENTIDAD = 'CENTRO DEPORTIVO'],[ENTIDAD = 'COMISARÍA DE POLICÍA'],
-   [ENTIDAD = 'ESCUELA'],[ENTIDAD = 'EST. DE AUTOBUSES'],[ENTIDAD = 'EST. DE FERROCARRIL'],[ENTIDAD = 'FARMACIA'],[ENTIDAD = 'HOSPITAL'],
-   [ENTIDAD = 'LUGAR DE CULTO'],[ENTIDAD = 'MONUMENTO HISTÓRICO'],[ENTIDAD = 'MUSEO'],[ENTIDAD = 'NEG. ESPECIALIZADO'],
-   [ENTIDAD = 'PISTA DE GOLF'],[ENTIDAD = 'POLÍGONO DEPORTIVO'],
-   [ENTIDAD = 'UNIVERSIDAD'],[ENTIDAD = 'ZONA INDUSTRIAL']{
+#CARTO_PU::labels[zoom >= 19]{
+   [ENTIDAD = 'AEROPUERTO DEPORTIVO'],[ENTIDAD = 'AEROPUERTO'],
+   [ENTIDAD = 'BIBLIOTECA'],[ENTIDAD = 'ESCUELA'],
+   [ENTIDAD = 'EST. DE AUTOBUSES'],[ENTIDAD = 'EST. DE FERROCARRIL'],[ENTIDAD = 'HOSPITAL'],
+   [ENTIDAD = 'LUGAR DE CULTO'],[ENTIDAD = 'MONUMENTO HISTÓRICO'],[ENTIDAD = 'MUSEO'],
+   [ENTIDAD = 'UNIVERSIDAD']{
  			 text-name:[TEXTO];
  			 text-face-name:@sans_italic;
- 			 text-placement:point;
-        	 text-dx:10;
+ 			 text-placement-type:simple;
+        	 text-dx: 10;
+  			 text-dy: 10;
  			 text-fill:@poi_text2;
  			 text-halo-fill:@poi_halo;
  			 text-halo-radius:1.3;
  			 text-size:8;
  			 text-min-distance:60;
+    		 text-allow-overlap: true;
+   			 text-wrap-width: 100;
+  			 text-wrap-before: true;
+    		 text-placements: 'N';
+            [ANGLE >= 45][ANGLE < 135] { text-placements: 'E'; }
+            [ANGLE >= 135][ANGLE < 225] { text-placements: 'S'; }
+            [ANGLE >= 225][ANGLE < 315] { text-placements: 'W'; }
    
 		}
 }
@@ -41,15 +47,22 @@
    [ENTIDAD = 'UNIVERSIDAD'],[ENTIDAD = 'VIDA NOCTURNA'],[ENTIDAD = 'ZONA DE RECREO'],[ENTIDAD = 'ZONA INDUSTRIAL']{
  			 text-name:[TEXTO];
  			 text-face-name:@sans_italic;
- 			 text-placement:point;
-        	 text-dx:10;
+ 			 text-placement-type:simple;
+        	 text-dx: 10;
+  			 text-dy: 10;
  			 text-fill:@poi_text2;
  			 text-halo-fill:@poi_halo;
  			 text-halo-radius:1.3;
  			 text-size:8;
  			 text-min-distance:60;
  			 text-allow-overlap: true;
-   
+   			 text-wrap-width: 100;
+  			 text-wrap-before: true;
+    		 text-placements: 'N';
+            [ANGLE >= 45][ANGLE < 135] { text-placements: 'E'; }
+            [ANGLE >= 135][ANGLE < 225] { text-placements: 'S'; }
+            [ANGLE >= 225][ANGLE < 315] { text-placements: 'W'; }
+
 		}
 }
 
