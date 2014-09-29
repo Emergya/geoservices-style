@@ -9,11 +9,10 @@
 /* WATER WAYS
 /* ================================================================== */
 
-#CARTO_LI[ENTIDAD='HIDROGRAFA LINEAL'][zoom >=9]{
+#CARTO_LI[ENTIDAD='HIDROGRAFÍA LINEAL'][zoom >=9]{
   line-color: @water;
   line-cap: round;
-  line-join: round;
-  
+  line-join: round; 
   [zoom=8] { line-width: 0.1; }
   [zoom=9] { line-width: 0.2; }
   [zoom=10]{ line-width: 0.4; }
@@ -39,6 +38,10 @@
     polygon-fill: @water;
    }
 }
+#CARTO_PO_LABEL[TIPO='LAGO'][zoom >=8]{
+    polygon-fill: rgba(0,0,0,0);
+}
+
 
 /* ================================================================== */
 /* ADMINISTRATIVE BOUNDARIES
@@ -84,20 +87,20 @@
 
 #USOS_DEL_SUELO[zoom>=12] {
   [ENTIDAD ='CEMENTERIO']      { polygon-fill: @cemetery; }
-  [ENTIDAD ='CENTRO EDUCACIN']       { polygon-fill: @school; }
+  [ENTIDAD ='CENTRO EDUCACIÓNN']       { polygon-fill: @school; }
   [ENTIDAD ='CENTRO COMERCIAL']    { polygon-fill: @commercial; }
   [ENTIDAD ='CAMPO GOLF']   { polygon-fill: @park; }
-  [ENTIDAD ='POLGONO INDUSTRIAL']    { polygon-fill:lighten(@industrial,5); }
+  [ENTIDAD ='POLÍGONO INDUSTRIAL']    { polygon-fill:lighten(@industrial,5); }
   [ENTIDAD ='COMPLEJO DEPORTIVO'] { polygon-fill: @sports; }
   [ENTIDAD ='CENTRO MDICO']        { polygon-fill: @heath; }
   
 }
 
-#CARTO_PO[ENTIDAD ='EDIFICIOS'][zoom >=12] { polygon-fill: @building; }
+#CARTO_PO[ENTIDAD ='EDIFICIOS'][zoom >=11] { polygon-fill: @building; }
 
 #CARTO_PO[ENTIDAD ='MANZANAS'][zoom >=11] { polygon-fill: @residential; }
 
-#CARTO_PO[ENTIDAD ='ZONA VERDE'][zoom>12] {
+#CARTO_PO[ENTIDAD ='ZONA VERDE'][zoom>=11] {
   line-color: @wooded;
   line-opacity:  0.8;
   polygon-fill: @wooded;

@@ -200,6 +200,9 @@
 
 /*-----------marker icons----------------------*/
 	/*---------small icons-----------------*/
+@admon12: url(./icon/town-hall-12.svg);
+@aeropuerto_dep12: url(./icon/airfield-12.svg);
+@aeropuerto12: url(./icon/airport-12.svg);
 @rent_car12: url(./icon/car-12.svg);
 @ambulatorio12: url(./icon/hospital-12.svg);
 @art_hogar12: url(./icon/shop-12.svg);
@@ -245,6 +248,9 @@
 @industrial12: url(./icon/industrial-12.svg);
 
 /*---------medium icons-----------------*/
+@admon18: url(./icon/town-hall-18.svg);
+@aeropuerto_dep18: url(./icon/airfield-18.svg);
+@aeropuerto18: url(./icon/airport-18.svg);
 @rent_car18: url(./icon/car-18.svg);
 @ambulatorio18: url(./icon/hospital-18.svg);
 @art_hogar18: url(./icon/shop-18.svg);
@@ -290,6 +296,9 @@
 @industrial18: url(./icon/industrial-18.svg);
 
 /*---------big icons-----------------*/
+@admon24: url(./icon/town-hall-24.svg);
+@aeropuerto_dep24: url(./icon/airfield-24.svg);
+@aeropuerto24: url(./icon/airport-24.svg);
 @rent_car24: url(./icon/car-24.svg);
 @ambulatorio24: url(./icon/hospital-24.svg);
 @art_hogar24: url(./icon/shop-24.svg);
